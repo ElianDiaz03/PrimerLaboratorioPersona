@@ -15,16 +15,23 @@ namespace Persona.Negocio
          
 
         }
-         public String Nacionalidad (ClsPersona persona)
+        public String Nacionalidad (ClsPersona persona)
         {
-          return " El apellido Garcia " + persona.Apellido+ " Es de nacionalidad" + persona.Nacionalidad + " Española ";
-
+        return " El apellido Garcia " + persona.Apellido+ " Es de nacionalidad" + persona.Nacionalidad + " Española ";
 
     
-         }
-         public String Edad(ClsPersona persona)
-         {
-          return " Minerva tiene la edad de 18 años " + persona.Edad + " y es de nacionalidad Argentina " + persona.Nacionalidad;
+        }
+        public String Edad(ClsPersona persona)
+        {
+        return " Minerva tiene la edad de 18 años " + persona.Edad + " y es de nacionalidad Argentina " + persona.Nacionalidad;
 
-    }    }
+        }
+        public String edad(ClsPersona persona)
+        {
+        return " El niño tiene la edad de 8 años " + persona.Edad + " y ya puede hablar 2 idiomas " + persona.Habla;
+
+        }
+
+    }
+
 }
